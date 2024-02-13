@@ -1,23 +1,64 @@
 body {
-  background pink;
+  font-family: Arial, sans-serif;
+  background: pink;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Header styles */
+#title {
+  color: #0077cc;
+  font-size: 24px;
+}
+
+/* Diary section styles */
+h2 {
+  font-size: 20px; 
+  color: #0077cc;
+  font-weight: normal;
 }
 
 h1 {
-  color: blue;
-  fontsize: 3em; 
+  color: #0077cc;
+  font-size: 3em;
 }
 
-h2 {
-  color: green;
-  font-weight: normal
-  font-style: italic;
+p {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #0077cc;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Tasks section styles */
+#tasks {
+  list-style-type: none;
+  padding: 0;
+}
+
+#tasks li {
+  margin-bottom: 5px;
 }
 
 .completed {
-  font-family: 12px;
+  text-decoration: line-through;
+  font-size: 12px;
+  
+  
+  
 }
-
-#tasks .completed {
-  backgound: #ccc;
-  text-decoration: underline;
+#tasks .completed { 
+  background: #ccc;
+}
+/* Camera Capture Archive section styles */
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
 }
